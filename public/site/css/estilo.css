@@ -1,0 +1,51 @@
+html { 
+  background: url(../imagens/2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#texto{
+	width: 84%;
+	height: 80px;
+	position:absolute;
+	bottom:20px;
+	z-index:80;
+	line-height:22px;
+	background-color: #fff;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	font-size: 18px;
+	float: right;
+	right: 0;
+	padding: 10px	
+}
+
+#logo{
+	width: 15%;
+	height: 80px;
+	position:absolute;
+	bottom:20px;
+	z-index:81;
+	line-height:12px;
+	background-color: #fff;
+	left: 0;
+	padding: 10px;
+	text-align: right;
+}
+
+#login{
+	width: 300px;
+	height: 225px;
+	position: absolute;
+	background-color: #fff;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	border-radius: 5px 5px 5px 5px;
+	padding: 15px;
+   	top: 40%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -150px;
+}

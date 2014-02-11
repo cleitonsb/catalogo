@@ -1,0 +1,27 @@
+<?php echo $this->doctype(); ?>
+<html lang="pt_br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Excelência em Tecnologia da Informação" />
+		<meta name="author" content="Cleiton Silva Barbsa" />
+		<?php echo $this->headTitle('CASoluções - '. $this->translate('Excelência em Tecnologia da Informação'))->setSeparator(' - ')->setAutoEscape(false) ?>
+
+        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0, maximum-scale=1') ?>
+
+        <!-- Le styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/images/favicon.ico'))
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css')
+                        ->prependStylesheet($this->basePath() . '/site/css/estilo.css') ?>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,900|Roboto|Roboto+Slab:300,400' rel='stylesheet' type='text/css' />
+        
+        <!-- Scripts -->
+        <?php echo $this->headScript()->prependFile($this->basePath() . '/js/jquery-2.1.0.min.js')
+                                      ->prependFile($this->basePath() . '/js/bootstrap.min.js')?>
+
+           
+    </head>
+    <body>
+    	<?php echo $this->content; ?>
+	</body>
+</html>
